@@ -1,0 +1,771 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css";
+
+
+
+
+.header .container
+{
+    background: url(https://i.ytimg.com/vi/EjXt157iszk/maxresdefault.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar
+{
+    width:100%;
+    height:80px;
+    background:rgb(81, 47, 173);
+}
+.header_logo
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(165, 151, 42);
+    border-radius: 5px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 6px;
+    line-height: 60px;
+}
+.navbar ul li a
+{
+    color:rgb(240, 240, 240);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px 12px;
+    font-family: Tahoma;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+{
+background:rgb(255, 81, 0);
+border-radius: 3px;
+}
+.hakkında
+{
+    margin-bottom: 200px;
+    
+}
+.hakkında_title
+{
+    margin-bottom: 60px 0;
+
+}
+.hakkında_title h2
+{
+    width: 100%;
+    text-align: center;
+    margin: 10 auto;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: 600;
+}
+.hakkında_title h2::after
+{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: yellow;
+    margin:  0 auto;
+    display: block;
+    margin-top: 10px;
+
+}
+ .hakkında-content
+{
+background-color:rgb(7, 7, 69);
+padding-bottom: 130px;
+}
+.hakkında-resim
+{
+    padding-left: 20px;
+    margin-top: -50px;
+    size: auto;
+}
+.hakkında_metin
+{
+    color: rgb(203, 203, 25);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 360px;
+    margin-right: 400px;
+    margin-top: -250px;
+    border: 2px;
+    border-radius: 10px;
+}
+.şehrim
+{
+    background-color: rgb(17, 17, 77);
+}
+.şehrim_title
+{
+    margin-bottom: 60px 0;
+
+}
+.şehrim_title h2
+{
+    width: 100%;
+    text-align: center;
+    margin: 10 auto;
+    color: rgb(199, 199, 199);
+    font-size: 30px;
+    font-weight: 600;
+}
+.şehrim_title h2::after
+{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: yellow;
+    margin:  0 auto;
+    display: block;
+    margin-top: 10px;
+
+}
+.slider-container
+{
+    width: 45%;
+    margin: auto;
+   overflow: hidden;
+   position: relative;
+   
+}
+.carousel_slide
+{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    color:white;
+    
+}
+#backbtn
+{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 10;
+    font-size: 35px;
+    color: rgb(196, 196, 196);
+    cursor: pointer;
+
+}
+#nextbtn
+{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: 10;
+    font-size: 35px;
+    color: rgb(196, 196, 196);
+    cursor: pointer;
+}
+.gezilecek_yerler_container
+{
+    margin-bottom: auto;
+ background-color:rgb(92, 25, 25);
+ border-radius: 30px;
+ 
+
+}
+.gezilecek_yerler_title h2
+{
+    text-align: center;
+    padding-top: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: solid;
+    color: aqua;
+}
+.gezilecek_yerler_title h2::after
+{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(7, 20, 104);
+    margin:  0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.anıtkabir_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -140px;
+    
+}
+.anıtkabir_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+    border-radius: 30px;
+}
+.ankarakalesi_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -140px;
+    
+}
+.ankarakalesi_resim
+{
+   
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.hamamonu_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -140px;
+    
+}
+.hamamonu_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.meclis_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -140px;
+    
+}
+.meclis_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.hacıbayramveli_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -140px;
+    
+}
+.hacıbayramveli_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.kocatepe_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -250px;
+    
+}
+.kocatepe_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+
+.kugulupark_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.kugulupark_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.eymir_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.eymir_resim
+{
+   
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.segmenler_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.segmenler_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.etnografya_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.etnografya_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.anadolu_medeniyetler_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.anadolu_medeniyetler_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.altınköy_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -100px;
+    
+}
+.altınköy_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.yöresel_lezzetler_container
+{
+    margin-bottom: auto;
+ background-color:rgb(89, 23, 23);
+border-radius: 25px;
+}
+.yöresel_lezzetler_title h2
+{
+    text-align: center;
+    padding-top: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: solid;
+    color: aqua;
+    
+}
+.yöresel_lezzetler_title h2::after
+{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(7, 20, 104);
+    margin:  0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.ankarasimidi_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.ankarasimidi_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.çubuk_tursusu_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.çubuk_tursusu_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.kurukofte_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.kurukofte_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.beypazarı_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -180px;
+    
+}
+.beypazarı_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.bazlama_metin  
+{
+
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -100px;
+    
+}
+.bazlama_resim
+{
+   
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.tarihçe
+{
+    text-align: center;
+    font-family: sans-serif;
+    color: yellow;
+    font-size: 20px;
+    font-style: italic;
+}
+.ankaragucu_miras
+{
+    background-color: darkblue;
+
+}
+.ankaragücü_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.ankaragucu_metin 
+{
+    color: rgb(204, 221, 20);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 370px;
+    margin-right: 360px;
+    margin-top: -330px;
+}
+.ankaragucuresim2
+{
+    padding-right: 2px;
+    padding-left: 1150px;
+    margin-top: -20px;
+}
+.ankaragucu3_resim
+{
+    padding-left: 2px;
+    margin-top: -70px;
+    size: auto;
+}
+.miras_title h2
+{
+    color: yellow;
+    text-align: center;
+    padding-top: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: solid;
+}
+.miras_title h2::after
+{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(12, 12, 217);
+    margin:  0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.genclerbirligi_resim
+{
+    
+    padding-left: 2px;
+    margin-top: -10px;
+    size: auto;
+}
+.genclerbirligi_metin 
+{
+    color: rgb(221, 20, 20);
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-left: 370px;
+    margin-right: 360px;
+    margin-top: -330px;
+}
+.genclerbirligiresim2
+{
+    padding-right: 2px;
+    padding-left: 1150px;
+    margin-top: -20px;
+    border-radius: 30px;
+}
+.genclerbirligi3_resim
+{
+    padding-left: 2px;
+    margin-top: -70px;
+    size: auto;
+}
+.miras1_title h2
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: solid;
+}
+.miras1_title h2::after
+{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: rgb(170, 24, 24);
+    margin:  0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.genclerbirliği_miras
+{
+    background-color: rgb(0, 0, 0);
+}
+.movies
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movies li
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    background:rgb(0, 0, 0);
+}
+.movies li img
+{
+    max-width: 300px;
+    border-radius: 12px;
+}
+.movies li h2
+{
+    color: white;
+    font-size: 1.8em;
+    padding: 15px 10px 0;
+    margin-top: auto;
+    font-family: sans-serif;
+}
+.ilgi_alanlarım_title h2
+{
+    width: 100%;
+    text-align: center;
+    margin: 10 auto;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ilgi_alanlarım_title h2::after
+{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: yellow;
+    margin:  0 auto;
+    display: block;
+    margin-top: 10px;
+
+}
+.form
+{
+    text-align: center;
+    background-image:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://www.fotografindir.net/wp-content/uploads/2019/09/en-guzel-deniz-manzaralari.jpg) no-repeat; width: 100%;height: 100vh;
+    background-size: cover;    
+    padding-top: 100px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.form h1
+{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 60px;
+}
+.form input 
+{
+    
+    padding-left: 40px;
+margin: auto;
+
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+    background-color:transparent; 
+    border: 5px;
+    border:white
+}
+.form textarea
+{
+padding:auto;
+margin:auto;
+font-size: 25px;
+background-color: transparent;
+border: 5px;
+border:white;
+color:white;
+}
+.form button
+{
+    font-size: 25px;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    background-color: aqua;
+    color:black
+}
+
+    

@@ -1,0 +1,91 @@
+
+.style
+{
+   margin:0;
+   padding: 0; 
+   
+}
+
+.container .navbar
+{
+    width:100%;
+    height:80px;
+    background:rgb(188, 140, 19);
+}
+.navbar  ol
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(17, 16, 15);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 6px;
+    line-height: 60px;
+}
+.navbar ul li a
+{
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    font-size: 15pxpx;
+    padding: 7px 12px;
+    font-family: Tahoma;
+}
+.navbar ul li a.active
+.navbar ul li a.hover
+{
+background:yellow;
+border-radius: 3px;
+}
+
+.biyografi
+{
+    padding-top: 60px;
+    margin-left: 200px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family: Arial;
+    text-decoration: underline;
+    text-decoration-color: rgb(212, 212, 25);
+}
+.ben
+{
+    
+    margin-top: 50px;
+    margin-left: 180px;
+    font-style: italic;
+    font-family: Arial;
+    text-decoration: underline;
+    text-decoration-color: rgb(212, 212, 25);
+
+}
+.paragraf
+{
+    text-align: center;
+    color: black;
+    margin-top: -180px;
+    padding-left: 140px;
+    padding-right: 130px;
+    font-family: Arial;
+}
+.resim1
+{
+    margin-top: -120px;
+    border-radius: 2x;
+}
+.resim2
+{
+    
+float: right;
+border-radius: 2x;
+
+}

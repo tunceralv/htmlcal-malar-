@@ -1,0 +1,53 @@
+.style
+{
+   margin:0;
+   padding: 0; 
+   
+}
+.header .container
+{
+    background: url(https://i.ytimg.com/vi/EjXt157iszk/maxresdefault.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.container .navbar
+{
+    width:100%;
+    height:80px;
+    background:rgb(81, 47, 173);
+}
+.navbar  ol
+{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(165, 151, 42);
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 6px;
+    line-height: 60px;
+}
+.navbar ul li a
+{
+    color:whitesmoke;
+    text-decoration: underline;
+    font-size: 15pxpx;
+    padding: 7px 12px;
+    font-family: Tahoma;
+}
+.navbar ul li a.active
+.navbar ul li a.hover
+
+{
+background:yellow;
+border-radius: 3px;
+}
+
